@@ -139,8 +139,13 @@ text-decoration: none;
 
 .hero {
     background: #2E2F42;
-    background-image: ;
+    background-image: url(../images/hero.jpg);
+background-repeat: no-repeat;
+background-size: cover;
     padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
 
 .hero-title {
@@ -157,6 +162,10 @@ text-decoration: none;
 }
 
 .hero-bg{
+   
+    
+   
+
 
 }
 
@@ -381,6 +390,9 @@ background: #2E2F42;
 padding: 100px 0;
 
 }
+.container footer-container{
+    display: flex;
+}
 
 .logo-text {
     margin-right: 120px;
@@ -414,7 +426,7 @@ padding: 100px 0;
 .social-media {
     display: flexbox;
     flex-direction: row;
-    align-items: baseline;
+    
 }
 .text-media {
     color: #FFFFFF;
@@ -435,6 +447,7 @@ padding: 100px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 16px;
 
 }
 
